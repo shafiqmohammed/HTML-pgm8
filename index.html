@@ -1,21 +1,69 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Layout Styles with Aside</title>
+<title>CSS Size and Color Demo</title>
 
 <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #17202a;
+    margin: 0;
+    padding: 30px;
+}
 
-/* Write your CSS here */
+h1 {
+    color: #ff9800;
+    text-align: center;
+}
 
+.box {
+    width: 400px;
+    max-width: 85%;
+    min-height: 200px;
+    background-color: #263238;
+    border: 3px solid #ff9800;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px auto;
+    box-shadow: 0 0 15px #ff9800;
+}
+
+p {
+    font-size: 18px;
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #17202a;
+    background-color: #ffcc80;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
 </style>
-
 </head>
 
 <body>
 
-<!-- Write your HTML code here -->
+<h1>CSS Measurements and Colors</h1>
+
+<div class="box">
+
+    <p>
+        CSS measurements control the size and spacing of webpage
+        elements using width, height, margin, padding, and borders.
+    </p>
+
+    <p class="highlight">
+        CSS colors make websites attractive by changing text,
+        backgrounds, and borders.
+    </p>
+
+</div>
 
 </body>
 </html>
